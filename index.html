@@ -321,7 +321,10 @@
       border-radius: 14px;
       padding: 12px 14px;
       margin-bottom: 10px;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .15s;
     }
+    .hotel-card:active { transform: scale(.97); }
     .hotel-name { font-size: 1.08rem; font-weight: 700; color: #2a5080; }
     .hotel-nights { font-size: 0.96rem; color: #5a8ab0; margin-top: 2px; }
 
@@ -914,50 +917,50 @@
           <div class="meal-row">
             <span class="meal-icon">🛫</span>
             <div class="meal-info">
-              <div class="meal-name">Day 1（3/30）</div>
-              <div class="meal-desc">早餐自理 / 機上餐 / 抵達後自由覓食</div>
+              <div class="meal-name">Day 1（3/30）出發日</div>
+              <div class="meal-desc">早餐：溫暖的家 / 午餐：溫暖的家 / 晚餐：機上精緻簡餐<br>⭐ 加贈宵夜：日式花壽司＆綠茶（餐標1000/人）</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🎡</span>
             <div class="meal-info">
               <div class="meal-name">Day 2（3/31）迪士尼</div>
-              <div class="meal-desc">早餐飯店 / 午晚餐園區自費享用</div>
+              <div class="meal-desc">早餐：飯店內早餐 / 午餐：方便遊玩，敬請自理 / 晚餐：方便遊玩，敬請自理</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🏯</span>
             <div class="meal-info">
-              <div class="meal-name">Day 3（4/1）</div>
-              <div class="meal-desc">早餐飯店 / 午晚餐自費</div>
+              <div class="meal-name">Day 3（4/1）小田原・箱根・御殿場</div>
+              <div class="meal-desc">早餐：飯店內早餐 / 午餐：日式天婦羅御膳（餐標2000日幣/人）/ 晚餐：溫泉飯店內用和洋總匯自助餐</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🗻</span>
             <div class="meal-info">
-              <div class="meal-name">Day 4（4/2）</div>
-              <div class="meal-desc">早餐飯店 / 午晚餐自費</div>
+              <div class="meal-name">Day 4（4/2）忍野・河口湖・台場</div>
+              <div class="meal-desc">早餐：飯店內早餐 / 午餐：山梨寶刀麵鄉土御膳（餐標2000日幣/人）/ 晚餐：方便遊玩，敬請自理</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🥩</span>
             <div class="meal-info">
-              <div class="meal-name">Day 5（4/3）</div>
-              <div class="meal-desc">早餐飯店 / <strong>午餐：敘敘苑燒肉套餐（含）</strong> / 晚餐自費</div>
+              <div class="meal-name">Day 5（4/3）明治神宮・麻布台・豐洲</div>
+              <div class="meal-desc">早餐：飯店內早餐 / ⭐ 午餐：燒肉界的LV～敘敘苑燒肉套餐＆軟飲一杯（餐標4000日幣）/ 晚餐：方便遊玩，敬請自理</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🆓</span>
             <div class="meal-info">
-              <div class="meal-name">Day 6（4/4）自由日</div>
-              <div class="meal-desc">早餐飯店 / 午晚餐自費（推薦築地海鮮！）</div>
+              <div class="meal-name">Day 6（4/4）東京自由日</div>
+              <div class="meal-desc">早餐：飯店內早餐 / 午餐：方便遊玩，敬請自理 / 晚餐：方便遊玩，敬請自理</div>
             </div>
           </div>
           <div class="meal-row">
             <span class="meal-icon">🛬</span>
             <div class="meal-info">
-              <div class="meal-name">Day 7（4/5）</div>
-              <div class="meal-desc">早餐飯店 / 機上餐</div>
+              <div class="meal-name">Day 7（4/5）返台</div>
+              <div class="meal-desc">早餐：飯店內早餐 / 午餐：機上精緻簡餐 / 晚餐：溫暖的家</div>
             </div>
           </div>
         </div>
@@ -994,26 +997,50 @@
     <!-- ⑤ 住宿 -->
     <div class="page" id="page-hotels">
       <div class="sec-heading">🏨 全程住宿</div>
-      <div class="hotel-card">
-        <div class="hotel-name">🏨 HOTEL EURASIA MAIHAMA ANNEX</div>
-        <div class="hotel-nights">Day 1–2（3/30 ~ 3/31）· 2晚</div>
-        <div style="font-size:.82rem;color:#5a7090;margin-top:5px;">位置：舞濱（迪士尼樂園旁），前往迪士尼超方便 🎡</div>
-      </div>
-      <div class="hotel-card">
-        <div class="hotel-name">♨️ FUJI PREMIUM RESORT</div>
-        <div class="hotel-nights">Day 3（4/1）· 1晚</div>
-        <div style="font-size:.82rem;color:#5a7090;margin-top:5px;">溫泉飯店，富士山近郊，享受頂級溫泉體驗 🗻</div>
-      </div>
-      <div class="hotel-card">
-        <div class="hotel-name">🏨 HOTEL ROUTE-INN GRAND<br>TOKYO ASAKUSABASHI</div>
-        <div class="hotel-nights">Day 4（4/2）· 1晚</div>
-        <div style="font-size:.82rem;color:#5a7090;margin-top:5px;">位置：淺草橋，鄰近東京都心，交通方便 🚃</div>
-      </div>
-      <div class="hotel-card">
-        <div class="hotel-name">🌿 CANDEO HOTELS UENOKOEN</div>
-        <div class="hotel-nights">Day 5–6（4/3 ~ 4/4）· 2晚</div>
-        <div style="font-size:.82rem;color:#5a7090;margin-top:5px;">位置：上野公園旁，自由日探索上野最佳據點 🌸</div>
-      </div>
+
+      <a class="hotel-card" href="https://maps.google.com/?q=Hotel+Eurasia+Maihama+Annex&ftid=ChIJUdZaGlF8GGARk04a_elLBzk" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+          <div>
+            <div class="hotel-name">🏨 HOTEL EURASIA MAIHAMA ANNEX</div>
+            <div class="hotel-nights">Day 1–2（3/30 ~ 3/31）· 2晚</div>
+            <div style="font-size:.88rem;color:#5a7090;margin-top:5px;">📍 舞濱・迪士尼樂園旁，超方便 🎡</div>
+          </div>
+          <span style="font-size:1.3rem;color:#3a7ab0;flex-shrink:0;margin-left:8px;">🗺️</span>
+        </div>
+      </a>
+
+      <a class="hotel-card" href="https://maps.google.com/?q=Fuji+Premium+Resort&ftid=ChIJ60QAHENgGWAR5D5oOaQ-j9g" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+          <div>
+            <div class="hotel-name">♨️ FUJI PREMIUM RESORT</div>
+            <div class="hotel-nights">Day 3（4/1）· 1晚</div>
+            <div style="font-size:.88rem;color:#5a7090;margin-top:5px;">📍 河口湖・富士山近郊溫泉飯店 🗻</div>
+          </div>
+          <span style="font-size:1.3rem;color:#3a7ab0;flex-shrink:0;margin-left:8px;">🗺️</span>
+        </div>
+      </a>
+
+      <a class="hotel-card" href="https://maps.google.com/?q=Hotel+Route-Inn+Grand+Tokyo+Asakusabashi&ftid=ChIJQflPWbGOGGARV9rx6UJX8vM" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+          <div>
+            <div class="hotel-name">🏨 HOTEL ROUTE-INN GRAND TOKYO ASAKUSABASHI</div>
+            <div class="hotel-nights">Day 4（4/2）· 1晚</div>
+            <div style="font-size:.88rem;color:#5a7090;margin-top:5px;">📍 淺草橋・東京都心，交通方便 🚃</div>
+          </div>
+          <span style="font-size:1.3rem;color:#3a7ab0;flex-shrink:0;margin-left:8px;">🗺️</span>
+        </div>
+      </a>
+
+      <a class="hotel-card" href="https://maps.google.com/?q=Candeo+Hotels+Ueno+Koen&ftid=ChIJhfTtRISOGGARsem_AgosEIM" target="_blank" rel="noopener" style="display:block;text-decoration:none;">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+          <div>
+            <div class="hotel-name">🌿 CANDEO HOTELS UENOKOEN</div>
+            <div class="hotel-nights">Day 5–6（4/3 ~ 4/4）· 2晚</div>
+            <div style="font-size:.88rem;color:#5a7090;margin-top:5px;">📍 上野公園旁・自由日探索最佳據點 🌸</div>
+          </div>
+          <span style="font-size:1.3rem;color:#3a7ab0;flex-shrink:0;margin-left:8px;">🗺️</span>
+        </div>
+      </a>
 
       <div class="sec-heading">💡 住宿小提醒</div>
       <div class="alert alert-pink">
