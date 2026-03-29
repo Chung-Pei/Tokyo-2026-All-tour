@@ -1,0 +1,26 @@
+{
+  "name": "小資東京迪士尼富士山7日遊",
+  "short_name": "日本7日遊",
+  "description": "小資東京迪士尼富士山7日遊行程手冊 - 團號 26JT330CIR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fde8ed",
+  "theme_color": "#f7a8b8",
+  "lang": "zh-TW",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
